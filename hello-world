@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Print "Hello, World!" to the console
+echo "Hello, World!"
+
+# Check if a specific file exists
+FILE="/path/to/your/file.txt"
+
+if [ -f "$FILE" ]; then
+    echo "$FILE exists."
+else
+    echo "$FILE does not exist."
+fi
+                                          
